@@ -1,0 +1,6 @@
+/dist
+/node_modules
+/vendor/bower
+
+.DS_Store
+thumbs.db

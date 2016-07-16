@@ -1,0 +1,10 @@
+{
+    "assetsPath": "src",
+    "publicPath": "dist",
+    "sourcemaps": false,
+    "css": {
+        "sass": {
+            "folder": "scss"
+        }
+    }
+}

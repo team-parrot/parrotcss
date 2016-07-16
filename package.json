@@ -1,0 +1,29 @@
+{
+  "name": "parrotcss",
+  "version": "0.0.1",
+  "description": "The CSS framework that'll change your workflow.",
+  "main": "dist/css/parrot.min.css",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-parrot/parrotcss.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "grid",
+    "scss"
+  ],
+  "author": "Team Parrot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/team-parrot/parrotcss/issues"
+  },
+  "homepage": "https://github.com/team-parrot/parrotcss#readme"
+}
