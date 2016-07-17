@@ -1,4 +1,4 @@
-# ParrotCSS documentation
+# ParrotCSS Documentation
 
 ### Components
 - [Spacings](components/spacings.md)
