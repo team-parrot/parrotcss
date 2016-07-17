@@ -9,8 +9,21 @@
         <link rel="stylesheet" href="../dist/css/parrot.css" />
         
         <style>
-        .dark-background {
-            background: #333;
+        .demo-light-background {
+            background: #eee;
+        }
+        
+        .demo-dark-background {
+            background: #222;
+        }
+        
+        .demo:before {
+            content: attr(data-demo);
+            color: #222;
+        }
+        
+        .demo-dark-background .demo:before {
+            color: #eee;
         }
         </style>
     </head>
@@ -20,11 +33,116 @@
             <p class="lead">About every component ParrotCSS has to provide.</p>
         </header>
         
+        <div id="colors">
+            <h2>Colors!</h2>
+            
+            <div class="demo-light-background">
+                <p class="primary-color demo" data-demo=".primary-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="secondary-color demo" data-demo=".secondary-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="white-color demo" data-demo=".white-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="black-color demo" data-demo=".black-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                
+                <br />
+                
+                <p class="red-color demo" data-demo=".red-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="orange-color demo" data-demo=".orange-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="yellow-color demo" data-demo=".yellow-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="olive-color demo" data-demo=".olive-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="green-color demo" data-demo=".green-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="teal-color demo" data-demo=".teal-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="blue-color demo" data-demo=".blue-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="violet-color demo" data-demo=".violet-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="purple-color demo" data-demo=".purple-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="pink-color demo" data-demo=".pink-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="brown-color demo" data-demo=".brown-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+            </div>
+            
+            <div class="demo-dark-background">
+                <p class="primary-color demo" data-demo=".primary-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="secondary-color demo" data-demo=".secondary-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="white-color demo" data-demo=".white-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="black-color demo" data-demo=".black-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                
+                <br />
+                
+                <p class="red-color demo" data-demo=".red-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="orange-color demo" data-demo=".orange-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="yellow-color demo" data-demo=".yellow-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="olive-color demo" data-demo=".olive-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="green-color demo" data-demo=".green-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="teal-color demo" data-demo=".teal-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="blue-color demo" data-demo=".blue-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="violet-color demo" data-demo=".violet-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="purple-color demo" data-demo=".purple-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="pink-color demo" data-demo=".pink-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+                <p class="brown-color demo" data-demo=".brown-color">
+                    Arrr! ParrotCSS - Thee CSS framework that'll change yer workflow.
+                </p>
+            </div>
+        </div>
+        
         <div id="buttons">
             <h2>Buttons!</h2>
             
-            <div class="light-background">
-                <a href="#" class="button">Default</a>
+            <div class="demo-light-background">
                 <a href="#" class="button primary">Primary</a>
                 <a href="#" class="button secondary">Secondary</a>
                 <a href="#" class="button white">White</a>
@@ -46,8 +164,7 @@
                 <a href="#" class="button brown">Brown</a>
             </div>
             
-            <div class="dark-background">
-                <a href="#" class="button">Default</a>
+            <div class="demo-dark-background">
                 <a href="#" class="button primary">Primary</a>
                 <a href="#" class="button secondary">Secondary</a>
                 <a href="#" class="button white">White</a>

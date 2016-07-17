@@ -1,0 +1,9 @@
+@each $color-name, $color-value in $color-palette {
+    .#{$color-name}-color {
+        color: $color-value;
+    }
+    
+    .#{$color-name}-background {
+        background-color: $color-value;
+    }
+}
