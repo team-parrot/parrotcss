@@ -2,7 +2,7 @@
 
 Question| Answer
 --------|--------
-What?   | Settings for colors used
+What?   | Quickly set your **text colors** and **background colors**
 Why?    | To give you flexibility of using colors consistently and in a smart way
 
 ## Usage
