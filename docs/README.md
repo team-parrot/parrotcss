@@ -2,6 +2,4 @@
 
 ### Components
 - [Spacings](components/spacings.md)
-
-### Settings
-- [Colors](settings/colors.md)
+- [Colors](components/colors.md)
