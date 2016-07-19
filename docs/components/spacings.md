@@ -92,7 +92,7 @@ level | pixels
 ```html
 <div class="padding-top-bottom-level-3 margin-right-level-2">
     A top and bottom padding of 16px, and a right margin of 8px.
-    
+
     <small class="margin-top-level-3">
         Unless you changed the settings of course.
     </small>

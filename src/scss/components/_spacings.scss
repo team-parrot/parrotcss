@@ -1,25 +1,27 @@
+// scss-lint:disable ImportantRule
+
 @each $level, $pixels in $spacing-levels {
     .padding-level-#{$level} {
         padding: $pixels !important;
     }
-    
+
     .padding-top-bottom-level-#{$level} {
         padding-top: $pixels !important;
         padding-bottom: $pixels !important;
     }
-    
+
     .margin-top-level-#{$level} {
         margin-top: $pixels !important;
     }
-    
+
     .margin-bottom-level-#{$level} {
         margin-bottom: $pixels !important;
     }
-    
+
     .margin-left-level-#{$level} {
         margin-left: $pixels !important;
     }
-    
+
     .margin-right-level-#{$level} {
         margin-right: $pixels !important;
     }

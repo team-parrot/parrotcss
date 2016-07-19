@@ -1,17 +1,17 @@
 .button {
     display: inline-block;
-    text-decoration: none;
     padding: $button-padding;
     margin: $button-margin;
+    text-decoration: none;
     border-radius: $button-border-radius;
     transition: $button-transition;
-    
+
     @each $color-name, $color-value in $color-palette {
         &.#{$color-name} {
             // NOTE: Color can be optimized by putting white outside the loop and using an if inside the loop
             color: is-it-light($color-value, $yes-color: #444);
             background-color: $color-value;
-            
+
             &:hover {
                 background-color: smart-scale($color-value, 10%);
             }
