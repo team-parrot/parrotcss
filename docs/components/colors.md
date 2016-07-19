@@ -10,22 +10,22 @@ The colors are defined in a list called `$color-palette`. You can find them in `
 
 color name | hex value | color
 -----------|-----------|--------------
-primary    | #DB2828   | ![primary](https://dummyimage.com/80x24/DB2828.png&text=+)
-secondary  | #CACACA   | ![secondary](https://dummyimage.com/80x24/CACACA.png&text=+)
-white      | #FEFEFE   | ![white](https://dummyimage.com/80x24/FEFEFE.png&text=+)
-black      | #0A0A0A   | ![black](https://dummyimage.com/80x24/0A0A0A.png&text=+)
+primary    | #db2828   | ![primary](https://dummyimage.com/80x24/db2828.png&text=+)
+secondary  | #cacaca   | ![secondary](https://dummyimage.com/80x24/cacaca.png&text=+)
+white      | #fefefe   | ![white](https://dummyimage.com/80x24/fefefe.png&text=+)
+black      | #0a0a0a   | ![black](https://dummyimage.com/80x24/0a0a0a.png&text=+)
 gray       | #767676   | ![gray](https://dummyimage.com/80x24/767676.png&text=+)
-red        | #DB2828   | ![red](https://dummyimage.com/80x24/DB2828.png&text=+)
-orange     | #F2711C   | ![orange](https://dummyimage.com/80x24/F2711C.png&text=+)
-yellow     | #FBBD08   | ![yellow](https://dummyimage.com/80x24/FBBD08.png&text=+)
-olive      | #B5CC18   | ![olive](https://dummyimage.com/80x24/B5CC18.png&text=+)
-green      | #21BA45   | ![green](https://dummyimage.com/80x24/21BA45.png&text=+)
-teal       | #00B5AD   | ![teal](https://dummyimage.com/80x24/00B5AD.png&text=+)
-blue       | #2185D0   | ![blue](https://dummyimage.com/80x24/2185D0.png&text=+)
-violet     | #6435C9   | ![violet](https://dummyimage.com/80x24/6435C9.png&text=+)
-purple     | #A333C8   | ![purple](https://dummyimage.com/80x24/A333C8.png&text=+)
-pink       | #E03997   | ![pink](https://dummyimage.com/80x24/E03997.png&text=+)
-brown      | #A5673F   | ![brown](https://dummyimage.com/80x24/A5673F.png&text=+)
+red        | #db2828   | ![red](https://dummyimage.com/80x24/db2828.png&text=+)
+orange     | #f2711c   | ![orange](https://dummyimage.com/80x24/f2711c.png&text=+)
+yellow     | #fbbd08   | ![yellow](https://dummyimage.com/80x24/fbbd08.png&text=+)
+olive      | #b5cc18   | ![olive](https://dummyimage.com/80x24/b5cc18.png&text=+)
+green      | #21ba45   | ![green](https://dummyimage.com/80x24/21ba45.png&text=+)
+teal       | #00b5ad   | ![teal](https://dummyimage.com/80x24/00b5ad.png&text=+)
+blue       | #2185d0   | ![blue](https://dummyimage.com/80x24/2185d0.png&text=+)
+violet     | #6435c9   | ![violet](https://dummyimage.com/80x24/6435c9.png&text=+)
+purple     | #a333c8   | ![purple](https://dummyimage.com/80x24/a333c8.png&text=+)
+pink       | #e03997   | ![pink](https://dummyimage.com/80x24/e03997.png&text=+)
+brown      | #a5673f   | ![brown](https://dummyimage.com/80x24/A5673F.png&text=+)
 
 ## Usage
 You can get the value of a color by using the built-in `map-get()` function.
