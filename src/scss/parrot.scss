@@ -7,5 +7,7 @@
 @import 'base';
 
 @import 'components/colors';
-@import 'components/buttons';
 @import 'components/spacings';
+
+@import '../../user/themes/theme';
+@import '../../user/extensions/extensions';
