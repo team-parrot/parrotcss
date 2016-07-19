@@ -5,8 +5,8 @@ Question| Answer
 What?   | Quickly set your **text colors** and **background colors**
 Why?    | To give you flexibility of using colors consistently and in a smart way
 
-## Usage
-The colors are defined in `/src/scss/settings/_colors.scss`. These are the default values:
+## Defaults
+The colors are defined in a list called `$color-palette`. You can find them in `/src/scss/settings/_colors.scss`. These are the default values:
 
 color name | hex value | color
 -----------|-----------|--------------
@@ -26,3 +26,10 @@ violet     | #6435C9   | ![violet](https://dummyimage.com/80x24/6435C9.png&text=
 purple     | #A333C8   | ![purple](https://dummyimage.com/80x24/A333C8.png&text=+)
 pink       | #E03997   | ![pink](https://dummyimage.com/80x24/E03997.png&text=+)
 brown      | #A5673F   | ![brown](https://dummyimage.com/80x24/A5673F.png&text=+)
+
+## Usage
+You can get the value of a color by using the built-in `map-get()` function.
+
+```scss
+background-color: map-get($color-palette, primary);
+```
