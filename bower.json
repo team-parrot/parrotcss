@@ -1,0 +1,12 @@
+{
+  "name": "parrotcss",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower",
+    "test",
+    "tests",
+    "docs",
+    "examples",
+  ]
+}
