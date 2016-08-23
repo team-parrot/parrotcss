@@ -1,0 +1,34 @@
+// $global-font-size: 100% !default;
+$global-width: rem-calc(1200) !default;
+// $global-lineheight: 1.5 !default;
+// $global-margin: 1rem !default;
+// $global-padding: 1rem !default;
+// $global-weight-normal: normal !default;
+// $global-weight-bold: bold !default;
+// $global-radius: 0 !default;
+$global-text-direction: ltr !default;
+// $global-flexbox: false !default;
+
+$global-left: if($global-text-direction == rtl, right, left);
+$global-right: if($global-text-direction == rtl, left, right);
+
+
+$flex-grid: false;
+
+$breakpoints: (
+    small: 0,
+    medium: 640px,
+    large: 1024px,
+    xlarge: 1200px,
+    xxlarge: 1440px,
+);
+$breakpoint-classes: (small medium large);
+
+$grid-row-width: $global-width;
+$grid-column-count: 12;
+$grid-column-gutter: (
+    small: 20px,
+    medium: 30px,
+);
+$grid-column-align-edge: true;
+$block-grid-max: 8;
