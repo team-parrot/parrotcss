@@ -1,13 +1,5 @@
-// $global-font-size: 100% !default;
 $global-width: rem-calc(1200) !default;
-// $global-lineheight: 1.5 !default;
-// $global-margin: 1rem !default;
-// $global-padding: 1rem !default;
-// $global-weight-normal: normal !default;
-// $global-weight-bold: bold !default;
-// $global-radius: 0 !default;
 $global-text-direction: ltr !default;
-// $global-flexbox: false !default;
 
 $global-left: if($global-text-direction == rtl, right, left);
 $global-right: if($global-text-direction == rtl, left, right);
