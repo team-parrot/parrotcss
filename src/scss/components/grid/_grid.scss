@@ -1,0 +1,15 @@
+@import 'row';
+@import 'column';
+@import 'size';
+@import 'position';
+@import 'gutter';
+@import 'classes';
+@import 'layout';
+
+@import 'flex-grid';
+
+@if not $flex-grid {
+    @include foundation-grid;
+} @else {
+    @include foundation-flex-grid;
+}
